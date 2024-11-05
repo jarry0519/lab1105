@@ -21,8 +21,8 @@ const int PWMFreq = 1000; // 1KHz
 const int PWMResolution = 8;
 const int PWMSpeedChannel = 4;
 
-const char* ssid = "iot-car01";
-const char* password = "12345678";
+const char* ssid = "Neo2";
+const char* password = "29970332";
 
 AsyncWebServer server(80);
 AsyncWebSocket wsCarInput("/CarInput");
@@ -180,7 +180,7 @@ document.getElementById("mainTable").addEventListener("touchend", function(enevt
   </script>
   </body>  
 
-
+</html>
 
 )HTMLHOMEPAGE";
 
